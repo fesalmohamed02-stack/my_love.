@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>My Love ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- شاشة الباسورد -->
+<div id="lock" class="screen">
+  <div class="heart">❤️</div>
+  <h2>Enter Password</h2>
+  <input type="password" id="password" placeholder="Password">
+  <button onclick="unlock()">Unlock 💕</button>
+  <p id="error"></p>
+</div>
+
+<!-- المحتوى -->
+<div id="content" class="screen hidden">
+  <h1>❤️ مريم ❤️</h1>
+
+  <div class="message">
+    انا اسف والله يا مريم ❤️  
+    <br>وحقك عليا  
+    <br><br>
+    انا غلط اني خبيت عليكي فعلاً  
+    بس والله خوفت تزعلي مني  
+    <br><br>
+    ووعد مني اهو  
+    مفيش اي حاجه هخبيها عليكي تاني  
+    <br><br>
+    واسفففف  
+    <br>وبحبككك  
+    <br>ومتزعليش مني 💕
+  </div>
+
+  <!-- الصورة -->
+  <div class="image-container">
+    <img src="images/heart.png" alt="Love Heart" width="200">
+  </div>
+
+  <!-- الموسيقى -->
+  <audio controls autoplay loop>
+    <source src="audio/love.mp3" type="audio/mpeg">
+    متصفحك لا يدعم تشغيل الموسيقى
+  </audio>
+
+  <div class="counter">
+    <div><span id="days">0</span><br>يوم</div>
+    <div><span id="hours">0</span><br>ساعة</div>
+    <div><span id="minutes">0</span><br>دقيقة</div>
+  </div>
+
+  <p class="end">يارب نفضل سوا دايمًا ❤️</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
