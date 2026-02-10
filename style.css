@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #7a0026, #c2185b);
+  color: white;
+  text-align: center;
+}
+
+.screen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.heart {
+  font-size: 90px;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+input {
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  width: 220px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  background: #ff5fa2;
+  color: white;
+}
+
+.message {
+  background: rgba(255,255,255,0.15);
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  line-height: 1.8;
+}
+
+.image-container {
+  margin: 20px;
+}
+
+.counter {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.counter div {
+  background: rgba(0,0,0,0.25);
+  padding: 15px;
+  border-radius: 15px;
+  width: 90px;
+}
+
+.counter span {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.end {
+  margin-top: 30px;
+  font-size: 18px;
+}
